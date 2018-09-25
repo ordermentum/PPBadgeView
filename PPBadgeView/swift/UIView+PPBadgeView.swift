@@ -175,7 +175,7 @@ extension UIView {
                 let badgeLabel = PPBadgeLabel.default()
                 badgeLabel.center = CGPoint(x: self.p_width, y: 0)
                 self.addSubview(badgeLabel)
-                self.bringSubviewToFront(badgeLabel)
+                self.bringSubview(toFront: badgeLabel)
                 self.badgeLabel = badgeLabel
                 return badgeLabel
             }
